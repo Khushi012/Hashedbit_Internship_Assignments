@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        header .logo {
+            font-size: 24px;
+        }
+
+        header .social-links a{
+            color: white;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+
+        .social-links :hover{
+            color: palevioletred;
+        }
+
+        .menu {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        p{
+            color: lightcoral;
+            text-align: justify;
+        }
+        img {
+             height: 100px;
+             width: 100px;
+            }
+
+        .main-content {
+            width: 75%;
+            padding: 15px;
+        }
+
+        .box {
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Girlish Corner</div>
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </div>
+</header>
+
+<div class="menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Girlish Corner</h2>
+        <p>
+           1. *Self Grooming Tips*  
+               Elevate your self-care routine with expert grooming tips and tricks.
+            <br><br>
+            2. *Beauty Cosmetics and Everything*  
+               Explore a world of beauty with our top picks in cosmetics and essential beauty products.
+            <br><br>
+            3. *Beautiful Gown Collections*  
+               Discover the latest trends and timeless classics in our stunning gown collections.
+            <br><br>
+    </div>
+    <div class="main-content">
+        <div class="box">
+            <h3>Self Grooming Tips</h3>
+            <img src="logo.jpeg" alt="Image 1">
+            <p>Give yourself a day out with Girlish Corner</p>
+        </div>
+        <div class="box">
+            <h3>All Girlish Stuffs</h3>
+            <img src="WhatsApp Image 2023-12-20 at 10.14.39 AM (2).jpeg" alt="Image 2">
+            <p>Wanna take out yourself for shopping</p>
+        </div>
+        <div class="box">
+            <h3>Beautiful Gown Collections</h3>
+            <img src="pinkgown.jpeg" alt="Image 3">
+            <p>Beautify yourself with our beautiful gown collections</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    All rights reserved.
+</footer>
+
+</body>
+</html>
